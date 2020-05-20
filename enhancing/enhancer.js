@@ -57,7 +57,7 @@ function get(item) {
       return item
     } else if (item.enhancement > 0) {
       const newItem = {
-        name: `${item.name} + $${item.enhancement}`,
+        name: `${item.name} +${item.enhancement}`,
         durability: item.durability,
         enhancement: item.enhancement
       }
